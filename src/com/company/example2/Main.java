@@ -19,7 +19,6 @@ public class Main {
                     : (((command > 0 && command % 5 == 0)) ? "Bar"
                     : (((command > 0 && command % 3 == 0)) ? "Foo"
                     : String.valueOf(command))));
-
             System.out.println(s);
         }
     }
